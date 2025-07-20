@@ -112,8 +112,5 @@ def check_stock_with_selenium():
 
 
 if __name__ == "__main__":
-    while True:
-        check_stock_with_selenium()
-        print("\n--- Check complete. Waiting for the next cycle. ---\n")
-        # Checks every 60 minutes
-        time.sleep(3600)
+    check_stock_with_selenium()
+    print("\n--- Script finished successfully. ---")
