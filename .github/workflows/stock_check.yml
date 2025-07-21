@@ -5,8 +5,8 @@ name: Check Amul Product Stock
 on:
   workflow_dispatch: # Allows you to run this workflow manually from the Actions tab
   schedule:
-    # Runs the job every 30 minutes
-    - cron: '*/30 * * * *'
+    # Runs the job every 10 minutes
+    - cron: '*/10 * * * *'
 
 jobs:
   build:
