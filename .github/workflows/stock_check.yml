@@ -1,12 +1,12 @@
 # Name of the workflow
-name: Check Amul Product Stock
+name: Check LUMA Product Stock
 
 # Controls when the workflow will run
 on:
   workflow_dispatch: # Allows you to run this workflow manually from the Actions tab
   schedule:
     # Runs the job every 10 minutes
-    - cron: '*/10 * * * *'
+    - cron: '*/5 * * * *'
 
 jobs:
   build:
