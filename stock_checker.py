@@ -24,12 +24,10 @@ PRODUCTS_TO_TRACK = [
 
 # the SKUs you want to track
 PRODUCT_SKUS = [
-    "WPCCP01_01", 
-    "WPCCP02_01", 
-    "WPCCP03_01", 
-    "WPCCP05_02", 
-    "DBDCP43_30", 
-    "BTMCP11_30"
+    "WPCCP01_01",
+    "WPCCP02_01",
+    "WPCCP03_01",
+    "WPCCP05_02"
 ]  
 
 # --- End Configuration ---
